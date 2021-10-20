@@ -2,8 +2,6 @@ import { galleryItems } from './gallery-items.js';
 // Change code below this line
 let myGallery = document.querySelector('.gallery');
 
-let pictures = [];
-
 const liPictures = galleryItems
   .map(
     pic => `<div class="gallery__item">
